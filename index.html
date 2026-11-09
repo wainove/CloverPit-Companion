@@ -12,12 +12,12 @@
 :root{color-scheme:dark;--bg:#0c110d;--panel:#182219;--panel2:#202d21;--stroke:#344535;--cream:#f3efde;--muted:#a1b19e;--green:#c7f272;--green2:#86b743;--gold:#f3c56e;--red:#ff9d84;--blue:#a5d9dc;--shadow:0 12px 32px #0006}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{background:radial-gradient(ellipse 130% 35% at 52% -8%,#314e26 0%,transparent 70%),var(--bg);color:var(--cream);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;margin:0;line-height:1.4;min-height:100dvh}button,input,select,textarea{font:inherit}button{cursor:pointer;border:0}a{color:var(--green)}input,select,textarea{width:100%;border:1px solid #4c604a;border-radius:12px;background:#0e1711;color:var(--cream);padding:12px 13px;outline:0;min-height:46px}input:focus,select:focus,textarea:focus{border-color:var(--green);box-shadow:0 0 0 3px #c7f27222}input[type=number]{font-variant-numeric:tabular-nums}input::placeholder,textarea::placeholder{color:#758a78}select{appearance:auto}label{display:block;font-size:12px;letter-spacing:.07em;color:var(--muted);margin-bottom:6px;font-weight:750;text-transform:uppercase}
 .wrap{width:min(1100px,100%);margin:0 auto;padding:18px 16px 100px}.masthead{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:6px 0 12px}.wordmark{font-family:Georgia,serif;font-weight:900;letter-spacing:-.055em;font-size:clamp(29px,7vw,43px);line-height:1}.wordmark b{color:var(--green);font-weight:900}.eyebrow{font-size:10px;letter-spacing:.15em;color:var(--muted);font-weight:850;text-transform:uppercase}.sub{font-size:13px;color:var(--muted);margin-top:6px}.pill{border:1px solid #4b7141;color:var(--green);background:#1d311d;border-radius:25px;padding:8px 10px;font-size:10px;letter-spacing:.08em;font-weight:850;white-space:nowrap}.nav{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;padding:5px;border-radius:17px;background:#172016;border:1px solid #2c3d2d;margin:12px 0 18px;position:sticky;top:6px;z-index:10;box-shadow:0 12px 25px #0b110a99}.nav button{background:transparent;border-radius:12px;color:#a5b3a1;padding:11px 3px;font-size:12px;font-weight:750}.nav button[aria-selected=true]{background:var(--green);color:#17200f;box-shadow:0 4px 10px #0005}.section{display:none;animation:rise .25s ease}.section.active{display:block}@keyframes rise{from{opacity:.5;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stack{display:grid;gap:12px}.card{border:1px solid var(--stroke);background:linear-gradient(160deg,#1b281c,#152016);border-radius:22px;padding:17px;box-shadow:var(--shadow)}.card h2{font-size:17px;margin:0 0 10px;letter-spacing:-.015em}.card p{font-size:13px;color:var(--muted);margin:6px 0 12px}.hero{display:grid;grid-template-columns:minmax(0,1fr) 132px;align-items:center;gap:12px;border-color:#557540;background:radial-gradient(circle at 110% -15%,#455f2b 0%,transparent 55%),linear-gradient(130deg,#223725,#182418)}.hero .big{font-size:clamp(35px,7vw,57px);font-weight:950;letter-spacing:-.065em;line-height:1.05;color:var(--cream);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}.debt-label{font-size:12px;color:var(--green);letter-spacing:.12em;font-weight:850}.ring{height:122px;width:122px;display:grid;place-items:center;position:relative;background:conic-gradient(var(--green) 0deg,var(--green) var(--angle,0deg),#40563c var(--angle,0deg),#40563c 360deg);border-radius:100%}.ring:before{content:"";position:absolute;inset:12px;border-radius:50%;background:#1c2b1d}.ring strong,.ring small{z-index:1;grid-area:1/1;font-variant-numeric:tabular-nums}.ring strong{font-size:23px;margin-top:-12px}.ring small{font-size:9px;color:var(--muted);margin-top:27px}.kpi{border:1px solid #344935;background:#111d13;border-radius:15px;padding:12px;min-width:0}.kpi .amount{font-size:23px;line-height:1.1;margin:6px 0;font-weight:850;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}.kpi .hint{font-size:11px;color:var(--muted)}.light{color:var(--green)}.gold{color:var(--gold)}.warn{color:var(--red)}.tag{display:inline-block;border-radius:30px;font-size:10px;font-weight:850;padding:5px 9px;background:#344733;color:var(--green);letter-spacing:.07em}.tag.red{background:#49302a;color:var(--red)}.tag.gold{background:#483c27;color:var(--gold)}.recommendation{border-left:4px solid var(--green);padding:12px 13px;background:#243623;border-radius:0 13px 13px 0;font-size:14px}.recommendation.urgent{border-color:var(--red);background:#382820}.rec-title{font-weight:850;margin-bottom:4px}.recommendation p{color:#e6e6d9;margin:0;font-size:13px}.fieldgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.fieldrow{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.fieldrow .wide{grid-column:span 2}.btn{display:inline-flex;gap:8px;align-items:center;justify-content:center;min-height:45px;padding:11px 14px;border-radius:12px;background:#334b31;color:var(--cream);font-size:13px;font-weight:800;border:1px solid #4a6945;text-align:center}.btn:hover{filter:brightness(1.12)}.btn.primary{background:var(--green);color:#183018;border-color:var(--green)}.btn.goldbtn{background:#594727;color:#fce3a3;border-color:#856b35}.btn.danger{background:#4b3028;color:#ffbdac;border-color:#75433b}.btn.plain{background:#121e14;color:var(--muted);border-color:#334735}.btn:disabled{opacity:.45;cursor:not-allowed}.actions{display:flex;flex-wrap:wrap;gap:8px}.actions>*{flex:1 1 140px}.fine{font-size:12px;color:var(--muted)}.line{height:1px;background:#304431;margin:14px 0}.ahead{display:flex;justify-content:space-between;align-items:center;gap:12px}.ahead h2{margin:0}.counter{border:1px solid #526d43;border-radius:13px;padding:7px 11px;color:var(--green);font-weight:800;font-size:12px}.item{padding:11px 12px;border-radius:14px;background:#121e14;border:1px solid #384839;display:flex;gap:10px;align-items:center;justify-content:space-between}.itemmain{min-width:0}.itemmain strong{font-size:13px;overflow-wrap:anywhere}.itemmain .subline{font-size:11px;color:var(--muted);margin-top:2px}.item button{flex-shrink:0;padding:7px 10px;border-radius:9px;background:#293b2b;color:#d9e8cb;font-size:12px}.note{font-size:12px;border-radius:12px;border:1px dashed #607753;background:#1e2b1f;padding:12px;color:#c7d8c0}.aside{color:var(--muted);font-size:12px}.meter{height:11px;border-radius:30px;background:#42503f;overflow:hidden;margin-top:6px}.meter span{height:100%;display:block;background:linear-gradient(90deg,#659d41,var(--green));border-radius:30px;transition:width .25s}.choices{display:grid;grid-template-columns:1fr 1fr;gap:10px}.choices>div{padding:12px;border:1px solid var(--stroke);border-radius:14px;background:#121b13}.choices strong{display:block;font-size:16px;margin-bottom:4px}.choices small{color:var(--muted)}.panel-title{font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.13em;color:var(--gold);margin:2px 0 12px}.empty{padding:17px;border:1px dashed #455b45;border-radius:14px;font-size:13px;text-align:center;color:var(--muted)}.history-date{font-size:10px;color:var(--muted)}.history-list{display:grid;gap:7px;max-height:560px;overflow:auto}.history-item{border-left:2px solid #63824e;padding:5px 11px;background:#101a12;border-radius:0 8px 8px 0}.history-item strong{font-size:12px}.history-item .fine{font-size:11px}.footer{text-align:center;color:#728771;font-size:11px;margin-top:20px;line-height:1.6}.toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,20px);opacity:0;background:#d4ffa0;color:#13210e;border-radius:14px;padding:13px 18px;font-size:13px;font-weight:800;max-width:min(360px,92%);text-align:center;z-index:20;pointer-events:none;transition:.25s;box-shadow:var(--shadow)}.toast.show{transform:translate(-50%,0);opacity:1}.mini{display:inline-flex;align-items:center;gap:6px;font-size:11px;color:var(--muted)}.safe{border-color:#497944}.dangerbg{border-color:#8a4438}@media(min-width:760px){.wrap{padding-top:27px}.maincolumns{display:grid;grid-template-columns:1.1fr .9fr;gap:13px;align-items:start}.hero{grid-template-columns:1fr 150px}.ring{width:140px;height:140px}.card{padding:20px}.fieldgrid{grid-template-columns:repeat(3,1fr)}}@media(max-width:390px){.wrap{padding-left:11px;padding-right:11px}.hero{grid-template-columns:minmax(0,1fr) 100px}.ring{width:96px;height:96px}.ring:before{inset:10px}.ring strong{font-size:19px}.hero .big{font-size:33px}.kpi .amount{font-size:20px}.card{padding:13px}.fieldrow{grid-template-columns:repeat(2,1fr)}.fieldrow .wide{grid-column:span 1}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
-.scan-hero{border-color:#657443;background:radial-gradient(circle at 100% 0%,#38522c 0%,transparent 52%),#182219}#scan-canvas{display:block;width:100%;max-height:370px;object-fit:contain;margin-top:12px;border:1px solid #526447;border-radius:12px;background:#060a06}#scan-results .scan-row{padding:11px;border:1px solid #3b523b;border-radius:14px;background:#121e14}#scan-results .scan-row label{letter-spacing:normal;text-transform:none;font-size:13px;color:var(--cream);display:flex;align-items:center;gap:8px;margin-bottom:7px}#scan-results .scan-row input[type=checkbox]{width:19px;height:19px;min-height:19px;flex-shrink:0;accent-color:#c7f272}#scan-results .scan-row input[type=number]{font-size:17px;font-weight:750}#scan-results .scan-row small{display:block;margin-top:6px;color:#a1b19e;overflow-wrap:anywhere}.nav{grid-template-columns:repeat(5,minmax(0,1fr))}.nav button{font-size:11px}@media(max-width:355px){.nav{gap:2px}.nav button{font-size:10px}}
+.scan-hero{border-color:#657443;background:radial-gradient(circle at 100% 0%,#38522c 0%,transparent 52%),#182219}#scan-canvas{display:block;width:100%;max-height:370px;object-fit:contain;margin-top:12px;border:1px solid #526447;border-radius:12px;background:#060a06}#scan-results .scan-row{padding:11px;border:1px solid #3b523b;border-radius:14px;background:#121e14}#scan-results .scan-row label{letter-spacing:normal;text-transform:none;font-size:13px;color:var(--cream);display:flex;align-items:center;gap:8px;margin-bottom:7px}#scan-results .scan-row input[type=checkbox]{width:19px;height:19px;min-height:19px;flex-shrink:0;accent-color:#c7f272}#scan-results .scan-row input[type=number]{font-size:17px;font-weight:750}#scan-results .scan-row small{display:block;margin-top:6px;color:#a1b19e;overflow-wrap:anywhere}#scan-preview{display:block;width:100%;height:auto;max-height:360px;object-fit:contain;border:1px solid #526447;border-radius:12px;background:#060a06;touch-action:none;cursor:crosshair}#scan-canvas{max-height:250px}.nav{grid-template-columns:repeat(5,minmax(0,1fr))}.nav button{font-size:11px}@media(max-width:355px){.nav{gap:2px}.nav button{font-size:10px}}
 </style>
 </head>
 <body>
 <div class="wrap">
-<header class="masthead"><div><div class="eyebrow">НЕОФИЦИАЛЬНЫЙ КОМПАНЬОН · V2.0</div><div class="wordmark">Clover<b>Pit</b> <span style="font-size:24px">☘</span></div><div class="sub">Штаб выживания · решение за тобой</div></div><span class="pill">● OFFLINE</span></header>
+<header class="masthead"><div><div class="eyebrow">НЕОФИЦИАЛЬНЫЙ КОМПАНЬОН · V3.0</div><div class="wordmark">Clover<b>Pit</b> <span style="font-size:24px">☘</span></div><div class="sub">Штаб выживания · решение за тобой</div></div><span class="pill">● OFFLINE</span></header>
 <div id="storage-warning" class="note" style="display:none;border-color:#ab6b4d;margin:9px 0">⚠ В этом режиме браузер не разрешает автосохранение. Используй вкладку «История» → «Сохранить JSON», иначе после закрытия данные могут исчезнуть.</div>
 <nav class="nav" aria-label="Разделы панели"><button type="button" data-tab="home" aria-selected="true">◈ Штаб</button><button type="button" data-tab="scan" aria-selected="false">▣ Скан</button><button type="button" data-tab="shop" aria-selected="false">◇ Решения</button><button type="button" data-tab="gear" aria-selected="false">♣ Набор</button><button type="button" data-tab="log" aria-selected="false">☷ История</button></nav>
 <section class="section active" id="home">
@@ -35,14 +35,19 @@
 <section class="section" id="scan">
  <div class="stack">
   <div class="card scan-hero">
-   <div class="panel-title">СКАНЕР V2 · БЕТА</div><h2>📷 Скриншот → цифры забега</h2>
-   <p>Выбери скриншот CloverPit. На телефоне можно отправить его из галереи или сделать фотографию. Снимок обрабатывается в твоём браузере; скриншоты не сохраняются в панель.</p>
+   <div class="panel-title">СКАНЕР V3 · БЕТА</div><h2>📷 Скриншот → цифры забега</h2>
+   <p>Выбери скриншот CloverPit и выдели нужную область ATM пальцем прямо на превью. Снимок обрабатывается в браузере, в панель не сохраняется.</p>
    <div class="actions"><button class="btn primary" type="button" id="btn-pick-image">▣ Выбрать изображение</button><button class="btn" type="button" id="btn-camera">📷 Камера</button></div>
    <input type="file" id="scan-file" accept="image/*" style="display:none"><input type="file" id="scan-camera" accept="image/*" capture="environment" style="display:none">
    <div id="scan-preview-wrap" style="display:none;margin-top:12px">
     <label for="scan-crop">Что распознавать</label>
-    <select id="scan-crop"><option value="all">Весь скриншот</option><option value="left">Левую половину</option><option value="right">Правую половину</option><option value="top">Верхнюю половину</option><option value="bottom">Нижнюю половину</option><option value="center">Центр изображения</option></select>
-    <canvas id="scan-canvas" role="img" aria-label="Предпросмотр выбранной области скриншота"></canvas>
+    <select id="scan-crop"><option value="all">Весь скриншот</option><option value="left">Левую половину</option><option value="right">Правую половину</option><option value="top">Верхнюю половину</option><option value="bottom">Нижнюю половину</option><option value="center">Центр изображения</option><option value="custom">Моя область (обведи ниже)</option></select>
+    <canvas id="scan-preview" role="img" aria-label="Изображение для выделения области пальцем"></canvas>
+    <div class="fine" style="margin:7px 0 9px">Проведи пальцем или мышью по нужной части изображения. Лучше всего выделить только экран ATM с подписями DEBT, DEPOSITED, ROUNDS LEFT и табло DEADLINE.</div>
+    <label for="scan-mode">Подготовка текста</label>
+    <select id="scan-mode"><option value="contrast">Контрастный (по умолчанию)</option><option value="warm">Оранжевые буквы ATM</option><option value="original">Без обработки</option></select>
+    <div class="fine" style="margin-top:9px">Ниже — изображение, которое увидит распознавание:</div>
+    <canvas id="scan-canvas" role="img" aria-label="Подготовленная область для OCR"></canvas>
     <div class="actions" style="margin-top:9px"><button class="btn primary" type="button" id="btn-ocr">✦ Распознать надписи</button><button class="btn plain" type="button" id="btn-remove-image">Удалить снимок</button></div>
    </div>
    <div class="fine" id="scan-status" aria-live="polite" style="margin-top:10px">Готов к загрузке изображения.</div>
@@ -54,7 +59,7 @@ DEADLINE 2
 DEBT 200
 DEPOSITED 70
 ROUNDS LEFT 2
-TICKETS 14"></textarea><button class="btn" type="button" id="btn-parse" style="margin-top:10px;width:100%">→ Найти значения в тексте</button><p class="fine">Панель ищет подписи Debt / Долг, Deadline / Дедлайн, Rounds Left / Раундов, Deposited / Внесено, Coins / Монеты, Tickets / Билеты. Сложный игровой интерфейс может мешать OCR.</p></div>
+TICKETS 14"></textarea><button class="btn" type="button" id="btn-parse" style="margin-top:10px;width:100%">→ Найти значения в тексте</button><p class="fine">Панель ищет подписи Debt / Долг, Deadline / Дедлайн, Rounds Left / Раундов, Deposited / Внесено, Coins / Монеты, Tickets / Билеты. Сканер учитывает оба порядка слов: 2 ROUNDS LEFT и ROUNDS LEFT 2. В витрине билеты часто обозначены только значком — без подписи сканер их не угадывает.</p></div>
    <div class="card"><h2>Подтверди найденное</h2><p>Галочки определяют, какие поля будут обновлены. Неподтверждённые данные не меняются.</p><div id="scan-results" class="stack"><div class="empty">Здесь появятся найденные числа после распознавания</div></div><button class="btn primary" id="btn-apply-scan" type="button" style="width:100%;margin-top:12px" disabled>✓ Применить отмеченные значения</button><div class="fine" style="margin-top:9px">Никогда не подставляем стандартный долг по номеру дедлайна вместо фактически прочитанного значения.</div></div>
   </div>
   <div class="card"><h2>Передать состояние в ChatGPT</h2><p>После проверки цифр можно отправить текст нашего забега через меню «Поделиться». Если браузер разрешит, приложится и выбранный скриншот.</p><div class="actions"><button type="button" class="btn primary" id="btn-scan-share">↗ Поделиться забегом</button><button type="button" class="btn" id="btn-scan-copy">▤ Подготовить текст</button></div><textarea id="scan-share-fallback" style="display:none;margin-top:10px" rows="7"></textarea></div>
@@ -153,22 +158,72 @@ async function chooseScanFile(file){
   await new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=()=>reject(new Error('Не удалось открыть изображение'));img.src=url});
   if(scanObjectURL)URL.revokeObjectURL(scanObjectURL);
   scanImage=img;scanObjectURL=url;scanImageFile=file;
-  $('scan-preview-wrap').style.display='block';$('scan-crop').value='all';
-  drawScan();setScanStatus(`Загружено: ${file.name} (${img.naturalWidth} × ${img.naturalHeight}). Выбери область и нажми «Распознать».`);
+  $('scan-preview-wrap').style.display='block';$('scan-crop').value='all';$('scan-mode').value='contrast';scanBox=null;
+  drawScanPreview();drawScan();setScanStatus(`Загружено: ${file.name} (${img.naturalWidth} × ${img.naturalHeight}). Выдели область ATM пальцем или выбери готовую область, затем распознай.`);
  }catch(e){setScanStatus('Ошибка чтения: '+e.message)}
 }
+// A hand-drawn crop is stored as normalized coordinates (0..1), not pixels.
+let scanBox=null, scanAnchor=null, scanDragging=false;
 function scanRegion(w,h,preset){
+ if(preset==='custom'&&scanBox){const [x1,y1,x2,y2]=scanBox;return [x1*w,y1*h,(x2-x1)*w,(y2-y1)*h]}
  switch(preset){
  case 'left':return [0,0,w/2,h];case 'right':return [w/2,0,w/2,h];
  case 'top':return [0,0,w,h/2];case 'bottom':return [0,h/2,w,h/2];
  case 'center':return [w/4,h/4,w/2,h/2];default:return [0,0,w,h];}
 }
+function drawScanPreview(){
+ if(!scanImage)return;
+ const c=$('scan-preview'),img=scanImage,scale=Math.min(1,1200/img.naturalWidth);
+ c.width=Math.max(1,Math.round(img.naturalWidth*scale));
+ c.height=Math.max(1,Math.round(img.naturalHeight*scale));
+ const ctx=c.getContext('2d');ctx.drawImage(img,0,0,c.width,c.height);
+ if(scanBox){const [x1,y1,x2,y2]=scanBox;
+  ctx.fillStyle='rgba(199,242,114,.15)';ctx.fillRect(x1*c.width,y1*c.height,(x2-x1)*c.width,(y2-y1)*c.height);
+  ctx.strokeStyle='#c7f272';ctx.lineWidth=Math.max(3,c.width/250);ctx.strokeRect(x1*c.width,y1*c.height,(x2-x1)*c.width,(y2-y1)*c.height);
+ }
+}
+function scanPointer(e){
+ const canvas=$('scan-preview'),rect=canvas.getBoundingClientRect();
+ // Account for object-fit:contain letterboxing on tall screenshots.
+ const scale=Math.min(rect.width/canvas.width,rect.height/canvas.height);
+ const dw=canvas.width*scale,dh=canvas.height*scale;
+ const dx=rect.left+(rect.width-dw)/2,dy=rect.top+(rect.height-dh)/2;
+ return [Math.max(0,Math.min(1,(e.clientX-dx)/dw)),Math.max(0,Math.min(1,(e.clientY-dy)/dh))];
+}
+$('scan-preview').addEventListener('pointerdown',e=>{
+ if(!scanImage||ocrBusy)return;e.preventDefault();scanAnchor=scanPointer(e);scanDragging=true;scanBox=null;
+ $('scan-preview').setPointerCapture?.(e.pointerId);
+});
+$('scan-preview').addEventListener('pointermove',e=>{
+ if(!scanDragging||!scanAnchor)return;
+ const p=scanPointer(e);scanBox=[Math.min(scanAnchor[0],p[0]),Math.min(scanAnchor[1],p[1]),Math.max(scanAnchor[0],p[0]),Math.max(scanAnchor[1],p[1])];
+ drawScanPreview();
+});
+function finishScanDrag(e){
+ if(!scanDragging)return;scanDragging=false;
+ if(!scanBox||scanBox[2]-scanBox[0]<.03||scanBox[3]-scanBox[1]<.03){scanBox=null;drawScanPreview();return}
+ $('scan-crop').value='custom';drawScanPreview();drawScan();
+ setScanStatus('Область выбрана. Нажми «Распознать надписи». Можно повторно выделить другую часть.');
+}
+$('scan-preview').addEventListener('pointerup',finishScanDrag);
+$('scan-preview').addEventListener('pointercancel',()=>{scanDragging=false;scanAnchor=null});
 function drawScan(){
  if(!scanImage)return;
  const img=scanImage,c=$('scan-canvas'),[sx,sy,sw,sh]=scanRegion(img.naturalWidth,img.naturalHeight,$('scan-crop').value);
- const scale=Math.min(2.3,Math.max(1,Math.min(2000/sw,2000/sh)));
+ const scale=Math.min(3,Math.max(1,Math.min(2200/sw,2200/sh)));
  c.width=Math.max(1,Math.round(sw*scale));c.height=Math.max(1,Math.round(sh*scale));
- const ctx=c.getContext('2d',{willReadFrequently:true});ctx.drawImage(img,sx,sy,sw,sh,0,0,c.width,c.height);
+ const ctx=c.getContext('2d',{willReadFrequently:true});
+ ctx.drawImage(img,sx,sy,sw,sh,0,0,c.width,c.height);
+ const mode=$('scan-mode').value;
+ if(mode==='original')return;
+ const pixels=ctx.getImageData(0,0,c.width,c.height),a=pixels.data;
+ for(let i=0;i<a.length;i+=4){
+  const r=a[i],g=a[i+1],b=a[i+2],lum=.299*r+.587*g+.114*b;
+  // Warm text isolates orange/yellow LCD characters from dark ATM backgrounds.
+  const keep=mode==='warm' ? (r>110&&r>g*1.09&&r>b*1.35&&g>35) : lum>123;
+  const v=keep?0:255;a[i]=v;a[i+1]=v;a[i+2]=v;a[i+3]=255;
+ }
+ ctx.putImageData(pixels,0,0);
 }
 function getScanCandidate(line){
  const matches=[...String(line).matchAll(/(?<![\dA-Za-z])(?:\d{1,3}(?:[\s.,'’]\d{3})+|\d+)(?![\dA-Za-z])/g)].map(m=>m[0]);
@@ -190,10 +245,18 @@ function parseScanText(source){
  for(const [key,re] of Object.entries(labelPatterns)){
   let candidates=[];
   for(let i=0;i<lines.length;i++){
-   const match=lines[i].match(re);if(!match)continue;
-   const remainder=lines[i].slice(match.index+match[0].length).replace(/^[\s:#=+$€₽\-|]+/,'');
+   if(key==='deadline'&&/deadline\s+bonus/i.test(lines[i]))continue;
+   const match=lines[i].match(re);
+   const prefixRounds=key==='rounds' ? lines[i].match(/(?:^|[^\dA-Za-z])([0-9]{1,2})\s*rounds?\s*(?:left|remaining)\b/i) : null;
+   if(!match&&!prefixRounds)continue;
+   const remainder=match ? lines[i].slice(match.index+match[0].length).replace(/^[\s:#=+$€₽\-|]+/,'') : '';
    let v=getScanCandidate(remainder),origin=lines[i];
-   if(v===null&&(!remainder||/^[\s:#=$€₽\-|.]+$/.test(remainder))&&i+1<lines.length){v=getScanCandidate(lines[i+1]);origin+=' | '+lines[i+1]}
+   // CloverPit ATM shows '2 ROUNDS LEFT', not 'ROUNDS LEFT 2'.
+   if(prefixRounds)v=Number(prefixRounds[1]);
+   // Never consume a value from a different labelled field on the next row.
+   if(v===null&&(!remainder||/^[\s:#=$€₽\-|.]+$/.test(remainder))&&i+1<lines.length){
+    if(/^[\s\d.,'’Φ$€₽-]+$/.test(lines[i+1])){v=getScanCandidate(lines[i+1]);origin+=' | '+lines[i+1]}
+   }
    if(v===null)continue;
    if((key==='deadline'&&(v<1||v>999))||(key==='rounds'&&v>99))continue;
    candidates.push({value:v,source:origin});
@@ -231,11 +294,11 @@ async function runScanOcr(){
   const result=await worker.recognize($('scan-canvas'));
   const raw=result?.data?.text||'';
   $('scan-text').value=raw;renderScanResults();
-  setScanStatus(raw.trim()?'Распознавание завершено. Проверь найденные числа перед применением.':'Букв не найдено. Выбери другой участок или вставь текст вручную.');
+  setScanStatus(raw.trim()?'Распознавание завершено. Проверь каждую цифру перед применением; непомеченные строки не меняются.':'Букв не найдено. Попробуй выделить только ATM, выбрать «Оранжевые буквы ATM» или внести числа вручную.');
  }catch(e){setScanStatus('OCR недоступен: '+(e.message||'неизвестная ошибка')+'. Числа можно ввести вручную.');}
  finally{try{if(worker)await worker.terminate()}catch(_){}ocrBusy=false;$('btn-ocr').disabled=false}
 }
-function scanCopyText(){const message=summary();navigator.clipboard?.writeText(message).then(()=>showToast('Отчёт скопирован')).catch(()=>{scanFallback(message)})??scanFallback(message)}
+async function scanCopyText(){const message=summary();try{if(!navigator.clipboard?.writeText)throw new Error('No clipboard');await navigator.clipboard.writeText(message);showToast('Отчёт скопирован')}catch(_){scanFallback(message)}}
 function scanFallback(text){$('scan-share-fallback').style.display='block';$('scan-share-fallback').value=text;$('scan-share-fallback').focus();$('scan-share-fallback').select();showToast('Скопируй текст вручную')}
 async function scanShare(){
  const message=summary();const share={title:'CloverPit — состояние забега',text:message};
@@ -247,13 +310,14 @@ $('btn-go-scan').addEventListener('click',()=>tab('scan'));
 $('btn-pick-image').addEventListener('click',()=>$('scan-file').click());
 $('btn-camera').addEventListener('click',()=>$('scan-camera').click());
 for(const id of ['scan-file','scan-camera'])$(id).addEventListener('change',async e=>{await chooseScanFile(e.target.files?.[0]);e.target.value=''});
-$('scan-crop').addEventListener('change',drawScan);
+$('scan-crop').addEventListener('change',()=>{drawScanPreview();drawScan()});
+$('scan-mode').addEventListener('change',drawScan);
 $('btn-ocr').addEventListener('click',runScanOcr);
 $('btn-parse').addEventListener('click',renderScanResults);
 $('btn-apply-scan').addEventListener('click',scanApply);
 $('btn-scan-copy').addEventListener('click',scanCopyText);
 $('btn-scan-share').addEventListener('click',scanShare);
-$('btn-remove-image').addEventListener('click',()=>{scanImage=null;scanImageFile=null;if(scanObjectURL)URL.revokeObjectURL(scanObjectURL);scanObjectURL=null;$('scan-preview-wrap').style.display='none';setScanStatus('Изображение удалено из текущей сессии.')});
+$('btn-remove-image').addEventListener('click',()=>{scanImage=null;scanImageFile=null;scanBox=null;if(scanObjectURL)URL.revokeObjectURL(scanObjectURL);scanObjectURL=null;$('scan-preview-wrap').style.display='none';setScanStatus('Изображение удалено из текущей сессии.')});
 
 $('restock-cost').value=RESTOCK[state.deadline]??0;render();
 if('serviceWorker' in navigator && (location.protocol==='https:'||location.hostname==='localhost'))navigator.serviceWorker.register('./sw.js').catch(()=>{});
